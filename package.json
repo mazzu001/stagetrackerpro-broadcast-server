@@ -1,7 +1,7 @@
 {
-  "name": "bandmaestro-broadcast-server",
+  "name": "stagetrackerpro-broadcast-server",
   "version": "1.0.0",
-  "description": "Simple broadcast server for BandMaestro",
+  "description": "Simple broadcast server for StageTrackerPro",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
