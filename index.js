@@ -63,7 +63,12 @@ app.get('/api/broadcast/:name', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Broadcast server running', broadcasts: Object.keys(broadcasts) });
+  res.json({ 
+    message: 'Simple Broadcast Server', 
+    status: 'running',
+    broadcasts: Object.keys(broadcasts),
+    version: '2.0'
+  });
 });
 
 app.listen(PORT, () => {
